@@ -2,4 +2,12 @@ $main-font: 'KoHo';
 
 :root {
     --main-font: 'KoHo';
+
+    --main-color: #A2ABFF;
+    --secondary-color: #FFBFF9;
+
+    --light-text-color: #FFF;
+
+    --main-gradiant: linear-gradient(90.1deg, var(--main-color) 0%, var(--secondary-color) 100%);
+    --main-gradiant-diag: linear-gradient(122.69deg, var(--main-color) 15.86%, var(--secondary-color) 71.54%);
 }
